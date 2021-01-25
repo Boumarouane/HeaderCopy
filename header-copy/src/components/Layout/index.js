@@ -1,5 +1,4 @@
 import React from 'react';
-import Menu from "../image/menu.svg"
 
 const Layout = () => {
     return (
@@ -7,9 +6,7 @@ const Layout = () => {
             <div className="card">
                 {/* Navigation top */}
                 <div className="nav">
-                    <div className="menu">
-                        {/* <img src={Menu} alt="menu phone" className="menu-svg"/> */}
-                    </div>
+                    <div className="menu"></div>
                     <ul className="nav-list">
                         <li className="list">HEADPHONES</li>
                         <li className="list">SPEAKERS</li>
@@ -35,6 +32,9 @@ const Layout = () => {
                         <div className="title">
                             <h1>An Exquisite Audio Experience.</h1>
                             <p>JBL T450BT</p>
+                        </div>
+                        <div className="canvas-phone">
+                            
                         </div>
                         <div className="block-text">
                             <div className="block left">
